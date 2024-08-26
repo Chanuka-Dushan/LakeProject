@@ -9,10 +9,11 @@ import LoginPage from './pages/LoginPage.jsx';
 import StaffLoginPage from './pages/StaffLoginPage.jsx';
 import AdminLoginPage from './pages/AdminLogin.jsx';
 import CommonLoginPage from './pages/CommonLoginPage.jsx';
+import StaffDashboard from './pages/staffManagement/StaffDashboard.jsx';
 
 
-import ShowtimesPage from './pages/movieManagement/ShowtimesPage.jsx';
-import MovieManagerDashboard from './pages/movieManagement/MovieManagerDashboard.jsx';
+
+
 
 
 
@@ -32,7 +33,7 @@ function App() {
         <Route path="/food/start" element={<FoodOrderStart />} />
 
         {/*booking routes */}
-        <Route path='/booking' element={<MovieManagerDashboard/>} />
+        <Route path='/booking' element={<StaffDashboard/>} />
       </Routes>
     </Router>
   );
