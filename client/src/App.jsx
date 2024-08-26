@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage.jsx';
 import StaffLoginPage from './pages/StaffLoginPage.jsx';
 import AdminLoginPage from './pages/AdminLogin.jsx';
 import CommonLoginPage from './pages/CommonLoginPage.jsx';
+import Booking5 from './pages/bookingmanager/Booking5.jsx';
 
 
 
@@ -26,6 +27,9 @@ function App() {
 
         {/* <Route path="/games/indoor" element={<IndoorGames />} /> */}
         <Route path="/food/start" element={<FoodOrderStart />} />
+
+        {/*booking routes */}
+        <Route path='/booking' element={<Booking5/>} />
       </Routes>
     </Router>
   );
